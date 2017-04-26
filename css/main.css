@@ -1,0 +1,37 @@
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #0F131F;
+    justify-content: space-around;
+}
+.cell {
+    width: 21%;
+    height: 21%;
+    border-radius: 6px;
+    background-color: #242833;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.number {
+    background-color: #A7A9AD;
+    /* font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; */
+    font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 53px;
+    font-color: white;
+}
